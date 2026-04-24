@@ -17,6 +17,7 @@ body {
   text-align: center;
   color: var(--branco);
 }
+
 header {
   display: flex;
   height: 50px;
@@ -182,6 +183,10 @@ h1 {
   margin: 0 20px auto;
 }
 
+.tela_deitado p{
+  font-size: 30px;
+}
+
 .tela_deitado img{
   height: 100%;
   object-fit: cover;
@@ -204,6 +209,15 @@ h1 {
   border-radius: 10px;
 }
 
+.tablet_2{
+   width: 870px;
+  margin: 30px auto;
+  background-color: var(--cor-tablet);
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+}
+
 .tela_2 {
   background-color: var(--cor-tela);
   color: var(--preto);
@@ -212,6 +226,7 @@ h1 {
   border-radius: 10px;
   text-align: center;
   height: 600px;
+  width: 750px;
   font-size: 20px;
   align-items: center;
   display: flex;
@@ -220,6 +235,7 @@ h1 {
 .tela_2 p{
   text-align: justify;
   padding: 0 20px 0 20px;
+  width: 450px;
 }
 
 .tela_2 img{
@@ -266,7 +282,7 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  height: 700px;
+  height: 800px;
   font-size: 20px;
   align-items: center;
 }
@@ -278,8 +294,7 @@ h1 {
 .tela_3 img{
   height: 400px;
   width: 300px;
-  border-radius: 20px;
   object-fit: cover;
-  object-position: center 10%;
+  object-position: center 40%;
   border-radius: 20px;
 }
