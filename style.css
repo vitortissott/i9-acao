@@ -1,6 +1,7 @@
 :root{
   --cor-fundo: linear-gradient(to bottom, #ff9200, #ffc002);
   --cor-cabecalho: #ffcf01;
+  --cor-rodapé: #ff8000;
   --cor-tela: #eaeaea;
   --cor-tablet: #333333;
   --cor-botao: #a8c6df;
@@ -383,6 +384,38 @@ h1 {
   margin: 20px;
 }
 
+.tablet_4 {
+  width: 800px;
+  margin: 30px auto;
+  background-color: var(--cor-tablet);
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+.tela_4 {
+  background-color: var(--cor-tela);
+  color: var(--preto);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 800px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.tela_4 p{
+  text-align: justify;
+}
+
+.tela_4 img{
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  object-position: center 40%;
+  border-radius: 20px;
+}
+
 .notebook {
   width: 800px;
   margin: 50px auto;
@@ -464,4 +497,21 @@ h1 {
 .tecla.grande {
   width: 200px;
   height: 40px;
+}
+
+footer{
+  height: 200px;
+  background-color: var(--cor-rodapé);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer img{
+  width: 180px;
+}
+
+footer h3{
+  width: 800px;
 }
