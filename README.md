@@ -67,12 +67,19 @@ Grande parte da agricultura depende da polinização realizada pelas abelhas, pr
 Ao apresentar o Meliponário do Colégio Cristo Rei, o projeto mostra como pequenas iniciativas podem contribuir para um futuro mais sustentável, incentivando:
 
 🐝 A preservação das abelhas nativas brasileiras;
+
 🌾 A valorização dos polinizadores na agricultura;
+
 🌱 A preservação da flora nativa e biodiversidade;
+
 🌳 A conservação de espécies da Mata Atlântica;
+
 🌎 O enfrentamento das mudanças climáticas;
+
 🏫 A educação ambiental dentro do ambiente escolar;
+
 🤝 O equilíbrio entre desenvolvimento e preservação.
+
 
 A proposta reforça que um agro forte depende da preservação do meio ambiente, mostrando que proteger os polinizadores também significa proteger a produção agrícola e o futuro sustentável.
 
@@ -92,13 +99,21 @@ O site apresenta informações educativas sobre espécies de abelhas presentes n
 Para cada espécie, o visitante pode conhecer informações como:
 
 ✔️ Nome científico;
+
 ✔️ Características físicas;
+
 ✔️ Comportamento;
+
 ✔️ Temperatura ideal;
+
 ✔️ Alimentação;
+
 ✔️ Predadores;
+
 ✔️ Tipo de mel;
+
 ✔️ Importância ecológica.
+
 
 ---
 
@@ -109,10 +124,15 @@ O site possui um quiz educativo com perguntas relacionadas ao conteúdo apresent
 O objetivo do quiz é revisar, de forma leve e interativa, os principais conceitos sobre:
 
 🐝 Abelhas sem ferrão;
+
 🌿 Meliponário;
+
 🌎 Sustentabilidade;
+
 🌱 Polinização;
+
 🌾 Relação entre meio ambiente e agro.
+
 
 Ao final, o usuário recebe uma pontuação e um feedback baseado no número de respostas corretas.
 
