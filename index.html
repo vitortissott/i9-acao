@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>I9 AÇÃO</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -9,8 +10,8 @@
 
 <header>
     <div>
-    <img class="img_colmeia" src="img/colmeia.png" alt="">
-    <img src="img/logo i9.png" alt="">
+    <img class="img_colmeia" src="img/colmeia.png" alt="desenho de uma comleia">
+    <img src="img/I9.png" alt="Logo site i9 ação">
     <h1>I9 AÇÃO</h1>
     </div>
     <div>
@@ -22,16 +23,21 @@
         <label for="idioma_box" class="idioma_botao">Idioma ▼</label>
         <div class="idioma_google">
         <div id="google_tradutior"></div>
-        </div>
-      </nav>
-      <img class="img_colmeia" src="img/colmeia.png" alt="">
+      </div>
+    </nav>
+    <div class="acessibilidade">
+      <button class="fonte-btn" onclick="alterarFonte(1)">A+</button>
+      <button class="fonte-btn" onclick="alterarFonte(-1)">A-</button>
+      <button class="tema-btn" onclick="alternarTema()"> <img class="img_modo-escuro" src="img/modo escuro.svg" alt="imagem modo escuro e modo claro"></button>
+    </div>
+      <img class="img_colmeia" src="img/colmeia.png" alt="desenho de uma comleia">
     </div>
 </header>
 
 <h1>Meliponario Colégio Cristo Rei: A inovação sustentável</h1>
 
 <main class="banner"> 
-  <img src="img/Capa Site.jpeg" alt="imagem principal do meliponario">
+  <img src="img/Capa Site.jpeg" alt="imagem principal do meliponário do Colégio Cristo Rei">
 </main>
 
 <section class="tablet" id="sobre">
@@ -39,13 +45,15 @@
   <article class="tela">
     <p>
       O que é um meliponário? <br>
-      O meliponário é uma área onde há criação com vários enxames de abelhas, da tribo Meliponini, que são abelhas sem ferrão, nativas aqui do Brasil. <br> <br>
+      O meliponário é um espaço destinado à criação de diferentes enxames de abelhas da tribo Meliponini, conhecidas como abelhas sem ferrão, espécies nativas do Brasil. <br> <br>
       Como surgil a ideia de fazer um no Colégio Cristo Rei? <br>
-      A ideia, surgiu há dois anos, com objetivo de fazer um movimento no colégio para a questão ambiental, enfrentamento das mudanças climáticas. Assim queriamos desenvolver algo diferente e que também ajudasse o meio ambiente. Assim pensamos nas abelhinhas nativas, porque é uma forma de preservar a nossa fauna nativa brasileira e também de preservar a flora, porque elas são grandes polinizadoras. Então, elas ajudam na preservação de espécies da nossa Mata Atlântica, algumas até ameaçadas de extinção.
-      E também, além da ideia de criar abelhas, mas também ampliar a área verde do colégio, utilizando plantas da Mata Atlântica. <br> <br>
+      A ideia surgiu há dois anos, com o objetivo de promover, no colégio, ações voltadas à conscientização ambiental e ao enfrentamento das mudanças climáticas. Buscávamos desenvolver um projeto diferenciado, que contribuísse efetivamente para o meio ambiente. <br>
+      Nesse contexto, pensamos nas abelhas nativas sem ferrão como uma forma de preservar a fauna brasileira e também a flora, já que elas desempenham um papel fundamental na polinização. Essas abelhas contribuem diretamente para a preservação de espécies da Mata Atlântica, algumas inclusive ameaçadas de extinção.  <br>
+      Além da criação das abelhas, o projeto também tem como objetivo ampliar as áreas verdes do colégio, utilizando plantas nativas da Mata Atlântica. <br> <br>
       Qual é o benefício das abelhas no meio ambiente e no colégio? <br>
-      Essa grande e importante papel que as abelhas têm, principalmente na polinização, que, ao polinizar essas plantas, acabam aumentando o número de frutos, o que vai nos ajudar no processo ecossistêmico para a captação de alimento para o ser humano, mas principalmente na dispersão dessas sementes pelos animais, o que faz com que essas plantas se dispersem e aumentem a quantidade de espécies e de indivíduos de cada espécie da Mata Atlântica.
-      Além disso, as plantas são grandes captadoras de gás carbônico da atmosfera, através da fotossíntese, e isso ajuda a reduzir o aquecimento global, diminuindo a quantidade de gases de efeito estufa na atmosfera. <br> <br>
+      As abelhas exercem um papel extremamente importante no meio ambiente, especialmente por meio da polinização. Ao polinizarem as plantas, contribuem para o aumento da produção de frutos, favorecendo os processos ecológicos relacionados à alimentação humana e animal. <br>
+      Além disso, a polinização auxilia na dispersão das sementes pelos animais, o que contribui para a ampliação da quantidade de espécies e de indivíduos da Mata Atlântica. <br>
+      Outro aspecto relevante é que as plantas atuam como importantes captadoras de gás carbônico da atmosfera por meio da fotossíntese. Dessa forma, contribuem para a redução do aquecimento global e da concentração de gases de efeito estufa na atmosfera. <br> <br>
       Entrevista com a professora Crissiane coordenadora do clube de ciências Do colégio Cristo Rei.
     </p>
   </article>
@@ -62,7 +70,7 @@
     <p>
       Todos os textos deste site são relatos de apresentações e trabalhos desenvolvidos pela professora Crissiane Loyse Luiz e dos estudantes que participam ativamente do Clube de Ciências do Colégio Estadual Cristo Rei.
     </p>
-    <img src="img/logo clube de ciencias.jpg.jpeg" alt="">
+    <img src="img/logo clube de ciencias.jpg.jpeg" alt="Logo do Clube de Ciências do Colégio Cristo Rei">
   </article>
   <div class="controles_tablet_deitado">
     <span>⬆</span>
@@ -76,13 +84,13 @@
 
 <section class="tablet_2">
   <article class="tela_2">
-    <img src="img/Mandasaia.jpeg" alt="">
+    <img src="img/Mandasaia.jpeg" alt=" Imagem da abelha Mandaçaia">
     <div>
-      <h4>Mandasaia (Melipona Quadrifasciata Lepeletier)</h4>
+      <h4>Mandaçaia (Melipona quadrifasciata)</h4>
       <p>
-      A Mandasaia é uma abelha nativa do Brasil, principalmente das regiões Sul e Sudeste. O corpo dela possui listras amarelas, com o restante sendo preto. Seu tamanho é de aproximadamente 10 milímetros. <br>
+      A Mandaçaia é uma abelha nativa do Brasil, principalmente das regiões Sul e Sudeste. O corpo dela possui listras amarelas, com o restante sendo preto. Seu tamanho é de aproximadamente 10 milímetros. <br>
       Apesar do seu tamanho, ela é considerada uma abelha muito calma e inofensiva. Caso se sinta ameaçada, pode morder ou vibrar. <br>
-      Seu nome popular é Mandasaia, mas seu nome científico é Melipona quadrifasciata lepeletier. <br>
+      Seu nome popular é Mandaçaia, mas seu nome científico é Melipona quadrifasciata. <br>
       Ela costuma polinizar plantas frutíferas, como laranjeira, tomateiro, goiabeira, acerola e pitanga. <br>
       O mel dela possui propriedades medicinais, antimicrobianas e antioxidantes. <br>
       Seus predadores incluem formigas, mosquitos, aranhas e outras abelhas. <br>
@@ -114,7 +122,7 @@
   <section class="celular">
   <div class="camera"></div>
   <article class="celular_tela">
-    <img src="img/Jatai.jpeg" alt="">
+    <img src="img/Jatai.jpeg" alt="Imagem da abelha Jataí">
   </article>
     <div class="controles">
     <span>⬅</span>
@@ -127,7 +135,7 @@
 <section class="tablet">
   <div class="camera"></div>
   <article class="tela_3">
-    <h4>Mirim Guaçu (Plebeia Remota)</h4>
+    <h4>Mirim Guaçu (Plebeia remota)</h4>
     <p>
     O nome científico dela é Plebeia remota, ela mede de 4 a 8 milímetros e possui coloração preta metálica com riscos amarelos no dorso. A temperatura ideal para seu desenvolvimento varia entre 18 e 26 °C. <br>
     A entrada da colmeia é feita com cera, e operárias guardas ficam na frente para impedir a entrada de predadores, seus principal predadores são formigas, aranhas, lagartos. <br>
@@ -135,7 +143,7 @@
     Produz aproximadamente até centenas de gramas de mel por ano. <br>
     Quando a rainha envelhece, uma das princesas é selecionada e recebe alimentação especial durante o desenvolvimento, o que faz com que seu abdômen se desenvolva mais e ela se diferencie das operárias.
     </p>
-    <img src="img/Marin guasu.jpeg" alt="">
+    <img src="img/Marin guasu.jpeg" alt="Imagem da abelha Mirim Guaçu">
   </article>
   <div class="controles">
     <span>⬅</span>
@@ -156,7 +164,7 @@
       Seus principais predadores são formigas, vespas e mariposas e elas podem voar cerca de 2 quilômetros para realizar a polinização.
     </p>
     </div>
-    <img src="img/Tubuna.jpeg" alt="">
+    <img src="img/Tubuna.jpeg" alt="Imagem da abelha Tubuna">
   </article>
 </section>
 
@@ -168,7 +176,7 @@
 <section class="tablet_deitado_2">
   <div class="camera_tablet_deitado"></div>
   <article class="tela_deitado_2">
-    <img src="img/Mirin droriana.JPG" alt="">
+    <img src="img/Mirin droriana.JPG" alt="Imagem da abelha Mirim">
     <div>
       <h4>Mirim (Plebeia droryana)</h4>
       <p>
@@ -189,7 +197,7 @@
 <section class="tablet_4">
   <div class="camera"></div>
   <article class="tela_4">
-    <h4>Manduri (Melipona Marginata)</h4>
+    <h4>Manduri (Melipona marginata)</h4>
     <p>
     O nome científico desta abelha é Melipona marginata., ela é uma abelha nativa do Brasil, sendo encontrada na região Sul e Sudeste, mas também pode ser encontrada em regiões próximas às fronteiras, incluindo a Argentina <br>
     A cor dela é preta ou acinzentada, com pelos grisalhos pelo corpo, e possui faixas amarelas bem marcadas na parte do abdômen, o tamanho delas varia de seis a sete milímetros. <br>
@@ -198,7 +206,7 @@
     Elas preferem uma temperatura de 20 a 32 graus Celsius. O tipo de mel delas é doce e tem uso medicinal, como antibacteriano, antioxidante e anti-inflamatório. <br>
     O mel delas tem esse gosto mais adocicado por conta das plantas que elas polinizam, que são da Mata Atlântica, como: caju, maracujá, pitanga e goiabeira.
   </p>
-    <img src="img/Manduri.jpeg" alt="">
+    <img src="img/Manduri.jpeg" alt="Imagem da abelha Manduri">
   </article>
   <div class="controles">
     <span>⬅</span>
@@ -233,7 +241,7 @@
 </section>
 
 <footer>
-  <img src="img/i9.png" alt="">
+  <img src="img/i9.png" alt="Logo site i9 ação no rodapé">
   <div>
     <h1>i9 AÇÃO</h1> 
     <h3>Site desenvolvido por Vitor Demenck Tissott, para o Agrinho © 2026 
@@ -241,7 +249,7 @@
     <br>
     <br> Agradeçemos aos Estudantes do Clube de Ciências, a Professora Crissiane Loyse Luiz e ao Colégio Cristo Rei</h3>
   </div>
-  <img src="img/logo cristo rei.png" alt="">
+  <img src="img/logo cristo rei.png" alt="Logo do Colégio Estadual Cristo Rei">
 </footer>
 
 <script src="script.js"></script>
