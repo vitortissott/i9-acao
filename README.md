@@ -37,14 +37,23 @@ O projeto também pretende demonstrar que o desenvolvimento agrícola depende di
 O projeto conta com as seguintes funcionalidades:
 
 🏠 Página inicial com apresentação do tema;
+
 📱 Menu de navegação por seções;
+
 🐝 Seção explicativa sobre o Meliponário do Colégio Cristo Rei;
+
 🌿 Conteúdo educativo sobre sustentabilidade e preservação ambiental;
+
 📖 Seção educativa sobre espécies de abelhas sem ferrão;
+
 🖼️ Exibição de imagens educativas das espécies;
+
 🌍 Tradutor de idiomas integrado;
+
 🧠 Quiz interativo com cálculo de pontuação;
+
 📲 Layout adaptado para diferentes tamanhos de tela;
+
 💻 Interface inspirada em dispositivos tecnológicos (tablet, celular, TV e notebook).
 
 ---
