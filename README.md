@@ -54,7 +54,9 @@ O projeto conta com as seguintes funcionalidades:
 
 📲 Layout adaptado para diferentes tamanhos de tela;
 
-💻 Interface inspirada em dispositivos tecnológicos (tablet, celular, TV e notebook).
+💻 Interface inspirada em dispositivos tecnológicos (tablet, celular, TV e notebook);
+
+🌜 Acessibilidade com modo claro e escuro e botões para aumentar e diminuir as fontes.
 
 ---
 
@@ -235,28 +237,9 @@ Sistema de quiz interativo;
 Integração com tradutor de idiomas;
 Controle de estado de respostas do usuário;
 Interatividade com o usuário;
-Organização de código em arquivos separados.
-
----
-
-🧩 Principais Interações Implementadas
-
-O JavaScript foi utilizado para tornar a página mais dinâmica e interativa. Entre as principais interações estão:
-
-🌍 Sistema de tradução de idiomas;
-
-📋 Menu interativo de idioma;
-
-🧠 Quiz com perguntas e respostas;
-
-🎯 Sistema de pontuação;
-
-⬅️➡️ Navegação entre perguntas;
-
-🔄 Reinício do quiz;
-
-📱 Interface interativa inspirada em dispositivos digitais.
-
+Organização de código em arquivos separados;
+Adaptação da tela com base no gosto do usuário;
+Ajustes nos tamanhos das fontes com base no gosto do usuário.
 
 ---
 
@@ -267,7 +250,6 @@ Autor: Vitor Demenck Tissott
 Instituição: Colégio Estadual Cristo Rei
 
 Município: Guarapuava – Paraná
-
 
 ---
 
