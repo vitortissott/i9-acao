@@ -560,8 +560,6 @@ footer h3{
   width: 800px;
 }
 
-/*  MODO ESCURO  */
-
 body.modo-escuro{
   background: #1a1a1a;
   color: white;
@@ -616,6 +614,7 @@ img{
   height: auto;
 }
 
+/* RESPONSIVIDADE */
 @media (max-width: 768px){
 
   header{
