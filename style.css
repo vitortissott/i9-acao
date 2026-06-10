@@ -543,6 +543,32 @@ h1 {
   height: 40px;
 }
 
+.img-tablet{
+  display: flex;
+  justify-content: center;
+}
+
+.img-tablet img{
+ width: 200px;
+ margin: 0 20px;
+}
+
+.galeria-btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 40px;
+  border: solid 5px var(--preto);
+  background-color: var(--branco);
+  color: var(--preto);
+  font-size: 16px;
+}
+
+.galeria-btn:hover{
+  background-color: var(--cor-rodapé);
+  color: var(--branco);
+}
+
 footer{
   height: 200px;
   background-color: var(--cor-rodapé);
@@ -561,8 +587,8 @@ footer h3{
 }
 
 body.modo-escuro{
-  background: #1a1a1a;
-  color: white;
+  background: var(--cor-tablet);
+  color: var(--branco);
 }
 
 body.modo-escuro header{
@@ -612,6 +638,28 @@ body.modo-escuro nav a{
 img{
   max-width: 100%;
   height: auto;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    margin: 5%;
+}
+
+.galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.galeria img:hover{
+    border: solid 5px var(--cor-tablet);
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 /* RESPONSIVIDADE */
@@ -775,6 +823,12 @@ img{
     margin-top: -25px;
     box-sizing: border-box;
   }
+
+  .img-tablet img{
+  width: 100px;
+  margin: 0 20px;
+  }
+
 
    footer{
     flex-direction: column;
