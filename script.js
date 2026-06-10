@@ -51,28 +51,28 @@ function alternarTema(){
 //Aqui é a constante das perguntas do quiz no final do site
 const perguntas = [
   {
-    pergunta: "1. Qual dessas abelhas não possui ferrão funcional?",
-    respostas: ["A) Europeia", "B) Jataí", "C) Vespa", "D) Mosca"],
+    pergunta: "1. O que é um meliponário?",
+    respostas: ["A) Um local para armazenar mel produzido industrialmente", "B) Um espaço destinado à criação de abelhas sem ferrão", "C) Um viveiro de plantas medicinais", "D) Um local para criação de formigas"],
     correta: 1
   },
   {
-    pergunta: "2. Como o mel das abelhas sem ferrão costuma ser?",
-    respostas: ["A) Muito amargo", "B) Muito azedo", "C) Sem sabor", "D) Mais líquido e levemente ácido"],
+    pergunta: "2. Qual dessas abelhas não faz parte da Tribo Meliponini",
+    respostas: ["A) Jataí", "B) Mandaçaia", "C) Mirim Guaçu", "D) Europeia"],
     correta: 3
   },
   {
-    pergunta: "3. Por que as abelhas são importantes para o meio ambiente?",
-    respostas: ["A) Produzem oxigênio", "B) Polinizam plantas", "C) Caçam insetos", "D) Produzem gás carbônico"],
+    pergunta: "3. Qual é a principal contribuição das abelhas para a agricultura?",
+    respostas: ["A) Produzir fertilizantes naturais", "B) Realizar a polinização, aumentando a produção de frutos e sementes", "C) Controlar a temperatura das plantações", "D) Combater todas as pragas das lavouras"],
     correta: 1
   },
   {
-    pergunta: "4. Quais são os três tipos de indivíduos em uma colmeia?",
-    respostas: ["A) Rainha, operária e zangão", "B) Rei, rainha e guarda", "C) Rainha, vespa e zangão", "D) Nenhuma das alternativas acima"],
+    pergunta: "4. Como a preservação das abelhas contribui para um futuro sustentável?",
+    respostas: ["A) Fortalecendo a produção de alimentos e ajudando na preservação da biodiversidade", "B) Aumentando apenas a produção de mel", "C) Reduzindo a necessidade de água nas lavouras", "D) Eliminando todas as espécies invasoras"],
     correta: 0
   },
   {
-    pergunta: "5. O que é um meliponário?",
-    respostas: ["A) Lugar onde se planta mel", "B) Casa de formigas", "C) Criação de abelhas sem ferrão", "D) Lugar da extração da cera"],
+    pergunta: "5. Qual das culturas abaixo pode ser beneficiada pela polinização realizada pelas abelhas?",
+    respostas: ["A) Musgo, samambaia e pinheiro", "B) Capim, trigo e bambu apenas", "C) Maracujá, morango, café e erva-mate", "D) Rochas calcárias e algas"],
     correta: 2
   }
 ];
