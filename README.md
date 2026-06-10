@@ -58,6 +58,8 @@ O projeto conta com as seguintes funcionalidades:
 
 🌜 Acessibilidade com modo claro e escuro e botões para aumentar e diminuir as fontes.
 
+🌺 Galeria de fotos com plantas polinizadas pelas abelhas, destacando sua importância para a agricultura e biodiversidade;
+
 ---
 
 🌎 Relação com o Tema do Agrinho 2026
@@ -157,43 +159,6 @@ HTML5
 CSS3
 
 JavaScript
-
----
-
-📁 Estrutura de Arquivos
-
-/
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
-├── README.md
-
-└── img/
-
-    ├── colmeia.png
-    
-    ├── logo i9.png
-    
-    ├── Capa Site.jpeg
-    
-    ├── Mandasaia.jpeg
-    
-    ├── Jatai.jpeg
-    
-    ├── Tubuna.jpeg
-    
-    ├── Manduri.jpeg
-    
-    ├── Mirim droriana.JPG
-    
-    ├── Marin guasu.jpeg
-    
-    └── logo clube de ciencias.jpg.jpeg
-    
 
 ---
 
