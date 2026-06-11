@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- cabeçalho -->
 <header>
     <div>
     <img class="img_colmeia" src="img/colmeia.png" alt="desenho de uma comleia">
@@ -18,7 +19,9 @@
       <a href="#sobre">Sobre</a>
       <a href="#especies">Espécies</a>
       <a href="#quiz">Quiz</a>
+        <!-- botão do tradutor -->
         <input type="checkbox" id="idioma_box">
+        <!-- Google Translate entra aqui -->
         <label for="idioma_box" class="idioma_botao">Idioma ▼</label>
         <div class="idioma_google">
         <div id="google_tradutior"></div>
@@ -33,19 +36,20 @@
     </div>
 </header>
 
-<h1>Meliponario Colégio Cristo Rei: A inovação sustentável</h1>
+<h1>Meliponário Colégio Cristo Rei: A inovação sustentável</h1>
 
 <main class="banner"> 
   <img src="img/Capa Site.jpeg" alt="imagem principal do meliponário do Colégio Cristo Rei">
 </main>
 
+<!-- seção sobre o meliponário do Colégio -->
 <section class="tablet" id="sobre">
   <div class="camera"></div>
   <article class="tela">
     <p>
       O que é um meliponário? <br>
       O meliponário é um espaço destinado à criação de diferentes enxames de abelhas da tribo Meliponini, conhecidas como abelhas sem ferrão, espécies nativas do Brasil. <br> <br>
-      Como surgil a ideia de fazer um no Colégio Cristo Rei? <br>
+      Como surgiu a ideia de fazer um no Colégio Cristo Rei? <br>
       A ideia surgiu há dois anos, com o objetivo de promover, no colégio, ações voltadas à conscientização ambiental e ao enfrentamento das mudanças climáticas. Buscávamos desenvolver um projeto diferenciado, que contribuísse efetivamente para o meio ambiente. <br>
       Nesse contexto, pensamos nas abelhas nativas sem ferrão como uma forma de preservar a fauna brasileira e também a flora, já que elas desempenham um papel fundamental na polinização. Essas abelhas contribuem diretamente para a preservação de espécies da Mata Atlântica, algumas inclusive ameaçadas de extinção.  <br>
       Além da criação das abelhas, o projeto também tem como objetivo ampliar as áreas verdes do colégio, utilizando plantas nativas da Mata Atlântica. <br> <br>
@@ -78,6 +82,7 @@
   </div>
 </section>
 
+<!-- seção sobre as especies das abelhas presentes no Colégio -->
 <h1 id="especies">Conheça as espécies das abelhas presentes no Meliponário <br>
   do Colégio Estadual Cristo Rei</h1>
 
@@ -137,7 +142,7 @@
     <h4>Mirim Guaçu (Plebeia remota)</h4>
     <p>
     O nome científico dela é Plebeia remota, ela mede de 4 a 8 milímetros e possui coloração preta metálica com riscos amarelos no dorso. A temperatura ideal para seu desenvolvimento varia entre 18 e 26 °C. <br>
-    A entrada da colmeia é feita com cera, e operárias guardas ficam na frente para impedir a entrada de predadores, seus principal predadores são formigas, aranhas, lagartos. <br>
+    A entrada da colmeia é feita com cera, e operárias guardas ficam na frente para impedir a entrada de predadores, seus principais predadores são formigas, aranhas, lagartos. <br>
     Ela se alimenta de plantas da América do Sul, como manjericão, babosa e alecrim. Vive em árvores ocas e constrói seus ninhos na horizontal, com estruturas sobrepostas, as colônias possuem cerca de 2.900 operárias. <br>
     Produz aproximadamente até centenas de gramas de mel por ano. <br>
     Quando a rainha envelhece, uma das princesas é selecionada e recebe alimentação especial durante o desenvolvimento, o que faz com que seu abdômen se desenvolva mais e ela se diferencie das operárias.
@@ -198,12 +203,12 @@
   <article class="tela_4">
     <h4>Manduri (Melipona marginata)</h4>
     <p>
-    O nome científico desta abelha é Melipona marginata., ela é uma abelha nativa do Brasil, sendo encontrada na região Sul e Sudeste, mas também pode ser encontrada em regiões próximas às fronteiras, incluindo a Argentina <br>
+    O nome científico desta abelha é Melipona marginata, ela é uma abelha nativa do Brasil, sendo encontrada na região Sul e Sudeste, mas também pode ser encontrada em regiões próximas às fronteiras, incluindo a Argentina <br>
     A cor dela é preta ou acinzentada, com pelos grisalhos pelo corpo, e possui faixas amarelas bem marcadas na parte do abdômen, o tamanho delas varia de seis a sete milímetros. <br>
     Assim como as outras citadas, ela é da tribo Meliponini, portanto possui ferrão atrofiado (não funcional). <br>
     A entrada do ninho delas é parecida com a caçapa de sinuca, as manduris, para se defenderem, tendem a se enroscar no cabelo e nas roupas, procurando lugares sensíveis como olhos, nariz e ouvidos. Elas são atraídas por cores escuras como o preto e o marrom. <br>
     Elas preferem uma temperatura de 20 a 32 graus Celsius. O tipo de mel delas é doce e tem uso medicinal, como antibacteriano, antioxidante e anti-inflamatório. <br>
-    O mel delas tem esse gosto mais adocicado por conta das plantas que elas polinizam, que são da Mata Atlântica, como: caju, maracujá, pitanga e goiabeira.
+    O mel delas tem possui um gosto mais adocicado por conta das plantas que elas polinizam, que são da Mata Atlântica, como: caju, maracujá, pitanga e goiabeira.
   </p>
     <img src="img/Manduri.jpeg" alt="Imagem da abelha Manduri">
   </article>
@@ -214,6 +219,7 @@
   </div>
 </section>
 
+<!-- seção sobre o tema do agrinho -->
 <section class="tablet" id="sobre">
   <div class="camera"></div>
   <article class="tela">
@@ -239,18 +245,21 @@
 </section>
 
 <br><h1 id="quiz" >Quiz sobre o Meliponário</h1>
-
+<!-- seção do quiz -->
 <section class="notebook">
   <div class="tela_notebook">
     <div class="conteudo">
       <div class="quiz">
+        <!-- pergunta colocada pelo JS -->
         <h2 id="pergunta"></h2>
+        <!-- respostas aparecem aqui -->
         <div id="respostas"></div>
         <div class="botoes">
         <button class="botao_quiz" id="btnAnterior" onclick="perguntaAnterior()">Anterior</button> 
         <button class="botao_quiz" onclick="proximaPergunta()">Próxima</button>
         <button class="botao_quiz" onclick="reiniciarQuiz()">Recomeçar</button>
         </div>
+        <!-- resultado do quiz -->
         <p id="resultado"></p>
       </div>
     </div>
@@ -265,6 +274,7 @@
 
 <h1>Para conhecer mais acesse a Galeria do Meliponário</h1>
 
+<!-- Encaminha para a geleria -->
 <a href="galeria.html"><button class="galeria-btn">Galeria</button></a>
 
 <footer>
@@ -279,7 +289,9 @@
   <img src="img/logo cristo rei.png" alt="Logo do Colégio Estadual Cristo Rei">
 </footer>
 
+<!-- JS principal do site -->
 <script src="script.js"></script>
+<!-- script do Google Tradutor -->
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
